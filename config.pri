@@ -221,38 +221,6 @@ config_pri_source_group1 {
         $$quote($$BASEDIR/src/utils/VideoViewedPercentProxy.hpp)
 }
 
-INCLUDEPATH += $$quote($$BASEDIR/src/Equalizer) \
-    $$quote($$BASEDIR/src/info) \
-    $$quote($$BASEDIR/src/PlayerPage) \
-    $$quote($$BASEDIR/src/PlaylistsPage) \
-    $$quote($$BASEDIR/src/parser) \
-    $$quote($$BASEDIR/src/parser/storage) \
-    $$quote($$BASEDIR/src) \
-    $$quote($$BASEDIR/src/settings) \
-    $$quote($$BASEDIR/src/BrowseTab) \
-    $$quote($$BASEDIR/src/parser/models) \
-    $$quote($$BASEDIR/src/PlaylistsTab) \
-    $$quote($$BASEDIR/src/TrendingTab) \
-    $$quote($$BASEDIR/src/parser/channel) \
-    $$quote($$BASEDIR/src/parser/cipher) \
-    $$quote($$BASEDIR/src/RecommendedTab) \
-    $$quote($$BASEDIR/src/ChannelPage) \
-    $$quote($$BASEDIR/src/utils) \
-    $$quote($$BASEDIR/src/models) \
-    $$quote($$BASEDIR/src/parser/recommended) \
-    $$quote($$BASEDIR/src/ChannelsTab) \
-    $$quote($$BASEDIR/src/SuggestionsList) \
-    $$quote($$BASEDIR/src/parser/script) \
-    $$quote($$BASEDIR/src/db) \
-    $$quote($$BASEDIR/src/PlaylistPage) \
-    $$quote($$BASEDIR/src/VideoList) \
-    $$quote($$BASEDIR/src/parser/search) \
-    $$quote($$BASEDIR/src/StartPage) \
-    $$quote($$BASEDIR/src/ChannelListPage) \
-    $$quote($$BASEDIR/src/menu) \
-    $$quote($$BASEDIR/src/parser/trending) \
-    $$quote($$BASEDIR/src/Cover)
-
 CONFIG += precompile_header
 
 PRECOMPILED_HEADER = $$quote($$BASEDIR/precompiled.h)
